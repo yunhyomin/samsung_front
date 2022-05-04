@@ -1,10 +1,25 @@
-import type { App } from 'vue';
-import { createPinia } from 'pinia';
+import { InjectionKey } from 'vue'
+import { createStore, Store } from 'vuex'
+import user from "./modules/user";
 
-const store = createPinia();
-
-export function setupStore(app: App<Element>) {
-  app.use(store);
+export interface State {
+  count: number
 }
 
-export { store };
+export const key: InjectionKey<Store<State>> = Symbol()
+
+export const store = createStore<State>({
+  state() {
+    return {
+      count: 0
+    }
+  },
+  modules: {
+    user
+  },
+  mutations: {
+    increment(state) {
+      state.count++
+    }
+  }
+})

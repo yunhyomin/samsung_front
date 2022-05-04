@@ -1,37 +1,69 @@
-import type { RouteRecordRaw } from 'vue-router';
-import type { App } from 'vue';
+import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import HelloWorld from "../components/HelloWorld.vue";
+import Home from "../views/Home.vue";
 
-import { createRouter, createWebHashHistory } from 'vue-router';
-import { basicRoutes } from './routes';
+const routes: Array<RouteRecordRaw> = [
+    {
+        path: "/",
+        name: "Home",
+        component: Home,
+    },
+    {
+        path: "/helloWorld",
+        name: "HelloWorld",
+        component: HelloWorld,
+    },
+    {
+      path: "/articles",
+      name: "articles",
+      // route level code-splitting
+      // this generates a separate chunk (articles.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () =>
+        import(/* webpackChunkName: "articles" */ "../views/Articles.vue")
+    },
+    {
+      path: "/archive",
+      name: "archive",
+      component: () =>
+        import(/* webpackChunkName: "archive" */ "../views/Archive.vue")
+    },
+    {
+      path: "/timeline",
+      name: "timeline",
+      component: () =>
+        import(/* webpackChunkName: "timeline" */ "../views/Timeline.vue")
+    },
+    {
+      path: "/project",
+      name: "project",
+      component: () =>
+        import(/* webpackChunkName: "project" */ "../views/Project.vue")
+    },
+    {
+      path: "/message",
+      name: "message",
+      component: () =>
+        import(/* webpackChunkName: "message" */ "../views/Message.vue")
+    },
+    {
+      path: "/about",
+      name: "about",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "../views/ArticleDetail.vue")
+    },
+    {
+      path: "/articleDetail",
+      name: "articleDetail",
+      component: () =>
+        import(/* webpackChunkName: "articleDetail" */ "../views/ArticleDetail.vue")
+    }
+];
 
-// 白名单应该包含基本静态路由
-const WHITE_NAME_LIST: string[] = [];
-const getRouteNames = (array: any[]) =>
-  array.forEach((item) => {
-    WHITE_NAME_LIST.push(item.name);
-    getRouteNames(item.children || []);
-  });
-getRouteNames(basicRoutes);
-
-// app router
-export const router = createRouter({
-  history: createWebHashHistory(import.meta.env.VITE_PUBLIC_PATH),
-  routes: basicRoutes as unknown as RouteRecordRaw[],
-  strict: true,
-  scrollBehavior: () => ({ left: 0, top: 0 }),
+const router = createRouter({
+    // history: createWebHistory(process.env.BASE_URL),
+    history: createWebHistory(import.meta.env.BASE_URL),
+    routes,
 });
 
-// reset router
-export function resetRouter() {
-  router.getRoutes().forEach((route) => {
-    const { name } = route;
-    if (name && !WHITE_NAME_LIST.includes(name as string)) {
-      router.hasRoute(name) && router.removeRoute(name);
-    }
-  });
-}
-
-// config router
-export function setupRouter(app: App<Element>) {
-  app.use(router);
-}
+export default router;
