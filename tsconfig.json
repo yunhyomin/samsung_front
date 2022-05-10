@@ -1,20 +1,27 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
+    "baseUrl": ".",
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": ["DOM", "ESNext"],
     "strict": true,
-    "jsx": "preserve",
-    "sourceMap": true,
-    // Ignoring type checking for this, Raise error on this expressions with an implied any type.
-    "noImplicitThis": false,
-    "resolveJsonModule": true,
     "esModuleInterop": true,
-    "lib": ["esnext", "dom"],
-    "types": ["vite/client"],
-    "typeRoots": ["./node_modules/@types/", "./types"]
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": [
+      "vite/client",
+      "vue/ref-macros",
+      "vite-plugin-pages/client",
+      "vite-plugin-vue-layouts/client"
+    ],
+    "paths": {
+      "~/*": ["src/*"]
+    }
   },
-  "include": ["/src/**/*.ts", "/src/**/*.d.ts", "/src/**/*.tsx", "/src/**/*.vue"],
-  // ts excluded files
-  "exclude": ["node_modules"]
+  "exclude": ["dist", "node_modules", "cypress"]
 }
