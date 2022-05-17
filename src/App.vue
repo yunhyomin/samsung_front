@@ -5,9 +5,9 @@
 import { isDark } from '~/composables'
 
 useHead({
-  title: 'Vitesse',
+  title: 'Samsung DS Brand Desk',
   meta: [
-    { name: 'description', content: 'Opinionated Vite Starter Template' },
+    { name: 'description', content: 'Samsung DS Brand Desk' },
     {
       name: 'theme-color',
       content: computed(() => isDark.value ? '#00aba9' : '#ffffff'),

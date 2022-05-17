@@ -1,0 +1,68 @@
+/* 
+https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/fonts/SamsungOne-700.woff2
+https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/fonts/SamsungOneKorean-700.woff2
+https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/fonts/SamsungOneKorean-600.woff
+https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/fonts/SamsungOne-400.woff2
+https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/fonts/SamsungOneKorean-400.woff2
+https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/fonts/SamsungSharpSans-Bold.woff2
+https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/fonts/SamsungSharpSans-Medium.woff2
+*/
+
+@charset "utf-8";
+
+@font-face {
+    font-family: 'SamsungOne';
+    src: local('SamsungOne'), local('SamsungOne'),
+    url('../fonts/SamsungOne-400.woff2') format('woff2'),
+    url('../fonts/SamsungOne-400.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SamsungOne';
+    src: local('SamsungOne'), local('SamsungOne'),
+    url('../fonts/SamsungOne-700.woff2') format('woff2'),
+    url('../fonts/SamsungOne-700.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SamsungOne';
+    src: local('SamsungOne'), local('SamsungOne'),
+    url('../fonts/SamsungOneKorean-400.woff2') format('woff2'),
+    url('../fonts/SamsungOneKorean-400.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SamsungOne';
+    src: local('SamsungOne'), local('SamsungOne'),
+    url('../fonts/SamsungOneKorean-600.woff2') format('woff2'),
+    url('../fonts/SamsungOneKorean-600.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SamsungOne';
+    src: local('SamsungOne'), local('SamsungOne'),
+    url('../fonts/SamsungOneKorean-700.woff2') format('woff2'),
+    url('../fonts/SamsungOneKorean-700.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SamsungOne';
+    src: local('SamsungOne'), local('SamsungOne'),
+    url('../fonts/SamsungSharpSans-Bold.woff2') format('woff2'),
+    url('../fonts/SamsungSharpSans-Bold.woff2') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SamsungOne';
+    src: local('SamsungOne'), local('SamsungOne'),
+    url('../fonts/SamsungSharpSans-Medium.woff2') format('woff2'),
+    url('../fonts/SamsungSharpSans-Medium.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}

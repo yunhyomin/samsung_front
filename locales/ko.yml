@@ -1,3 +1,62 @@
+language:
+  ko:  한국어
+  en:  English
+  lan_country_ko: 한국/한국어
+  lan_country_en: 영어/영문
+
+footer:
+  privacy: 개인정보보호
+  legal_notice: 법적고지
+  cookie: 쿠키
+  copyright: Copyrightⓒ 2022 Samsung ALL rights reserved.
+
+
+qna: Q&A
+qna.desc: Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+inquiry: 1:1문의
+faq: FAQ
+request: Request
+request.desc: Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+brand_asset: Brand Asset
+brand_asset.desc: DS 부문 내 세부적인<br>  브랜드 활용 관련 기준 제공
+guidelines: Guidelines
+guidelines.desc: Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+brand_strategy: Brand strategy
+brand_elements: Brand elements
+brand_applications: Brand applications
+
+font: Font
+color: Color
+placement: Placement
+media_kit: Media kit
+lettermark: Lettermark
+
+
+intro:
+  welcome: Welcome to the<br>Samsung DS Brand Desk
+  visual-sub-tit: 삼성은 끊임없이 사람과 사회의 번영을 돕는 라이프 스타일 브랜드 입니다.
+  login: 로그인
+  regist: 회원가입
+
+main:
+  title: Samsung DS Brand Desk
+  desc: DS 부문 내 세부적인 브랜드 활용 관련 기준 수립을 통한<br>Guidelines, Brand Asset 등을 제공합니다.
+  menu: 주요 메뉴
+  my_request:
+    title: My Request
+    desc: 디자인 검수 요청 현황을 확인할 수 있습니다.
+    request: 검수요청
+    review: 검수중
+    completed: 검수완료
+  go: 바로가기
+  search: 어떤 것을 찾고 계신가요?
+
+introo:
+  desc: Vite 애플리케이션 템플릿
+  dynamic-route: 다이나믹 라우트 데모
+  hi: 안녕, {name}!
+  whats-your-name: 이름이 뭐예요?
+
 button:
   about: 소개
   back: 뒤로가기
@@ -5,9 +64,5 @@ button:
   home: 홈
   toggle_dark: 다크모드 토글
   toggle_langs: 언어 변경
-intro:
-  desc: Vite 애플리케이션 템플릿
-  dynamic-route: 다이나믹 라우트 데모
-  hi: 안녕, {name}!
-  whats-your-name: 이름이 뭐예요?
+
 not-found: 찾을 수 없습니다

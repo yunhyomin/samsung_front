@@ -1,66 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceb29aaa-4d07-47a3-ab69-5f6dafec4a1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="9c461385-65b0-4826-86bc-1e5a5fb03841" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/env/.env.development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/env/.env.production" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mock/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/loading.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/userLogo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locales/ko.yml" beforeDir="false" afterPath="$PROJECT_DIR$/locales/ko.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/BiaoChenXuYing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/FrontEndGitHub.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/loading.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/user.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/userLogo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArrowUp.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Comment.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CommentList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomSlider.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoadEnd.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Loading.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterAndLogin.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/mobile.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/monokai_sublime.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mixins/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/modules/user.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/https.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/markdown.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/mockTest.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/urls.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/utils.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Archive.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ArticleDetail.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Articles.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Message.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Project.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Timeline.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/hi/[name].vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hi/[name].vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/gate.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +26,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28zigLkjpmCl5IwJVFcg3olMh6z" />
+  <component name="ProjectId" id="29JOPYR7IhGh1Uif8MR0RJWC2fM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -84,18 +37,75 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/projects/samsungbranddesk/sources/brand-desk-front/src/layouts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "ts.external.directory.path": "D:\\projects\\samsungbranddesk\\sources\\brand-desk-front\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\samsungbranddesk\sources\brand-desk-front\src\layouts" />
+      <recent name="D:\projects\samsungbranddesk\sources\brand-desk-front\src\pages" />
+      <recent name="D:\projects\samsungbranddesk\sources\brand-desk-front\public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ceb29aaa-4d07-47a3-ab69-5f6dafec4a1f" name="Changes" comment="" />
-      <created>1652225927818</created>
+      <changelist id="9c461385-65b0-4826-86bc-1e5a5fb03841" name="Changes" comment="" />
+      <created>1652827699395</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652225927818</updated>
+      <updated>1652827699395</updated>
+      <workItem from="1652827701241" duration="3252000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/main.vue</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

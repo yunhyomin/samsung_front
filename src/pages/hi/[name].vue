@@ -17,16 +17,16 @@ watchEffect(() => {
       <div i-carbon-pedestrian inline-block />
     </div>
     <p>
-      {{ t('intro.hi', { name: props.name }) }}
+      {{ t('introo.hi', { name: props.name }) }}
     </p>
 
     <p text-sm opacity-50>
-      <em>{{ t('intro.dynamic-route') }}</em>
+      <em>{{ t('introo.dynamic-route') }}</em>
     </p>
 
     <template v-if="user.otherNames.length">
       <p text-sm mt-4>
-        <span opacity-75>{{ t('intro.aka') }}:</span>
+        <span opacity-75>{{ t('introo.aka') }}:</span>
         <ul>
           <li v-for="otherName in user.otherNames" :key="otherName">
             <router-link :to="`/hi/${otherName}`" replace>
